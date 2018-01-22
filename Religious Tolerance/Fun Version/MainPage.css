@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* Navigation */
+
+.Navigation {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.Navigation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.Navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* can be edited*/
+
+.Column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+.Column h2 {
+    text-align: center;
+}
+
+.Column p {
+    text-align: center;
+}
+
+.Column:hover {
+    border: 1px solid black;
+    padding: 25px 25px 75px;
+    background-color: lightblue;
+}
+
+.row:after {
+    content"";
+    display: table;
+    clear: both;
+}
